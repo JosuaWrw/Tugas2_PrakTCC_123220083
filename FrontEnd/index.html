@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Catatan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="card mx-auto" style="max-width: 600px;">
+                <div class="card-content">
+                    <h1 class="title has-text-centered">Daftar Catatan</h1>
+                    <div class="buttons is-centered">
+                        <button class="button is-primary" onclick="window.location.href='tambahData.html'">+
+                            Catatan</button>
+                    </div>
+                    <table class="table is-fullwidth is-striped is-hoverable">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;">No</th>
+                                <th style="width: 50%;">Judul</th>
+                                <th style="width: 40%;">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="notesTable">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+GET http://localhost:3000/notes
+
+###
+
+GET http://localhost:3000/notes/1
+
+###
+
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "title": "Note 1",
+  "content": "Content 1"
+}
+
+###
+
+PUT http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+  "title": "Note 2",
+  "content": "Content 2"
+}
+
+###
+
+DELETE http://localhost:3000/notes/1

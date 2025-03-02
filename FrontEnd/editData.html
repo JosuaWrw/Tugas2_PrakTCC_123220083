@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Catatan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <script defer src="js/edit.js"></script>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Edit Catatan</h1>
+            <form id="edit-form">
+                <div class="field">
+                    <label class="label">Judul</label>
+                    <div class="control">
+                        <input id="title" class="input" type="text" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Isi</label>
+                    <div class="control">
+                        <textarea id="content" class="textarea" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="button is-success">Simpan</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
