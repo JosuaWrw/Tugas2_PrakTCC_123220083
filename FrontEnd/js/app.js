@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(response => response.json())
       .then(notes => {
           const notesTable = document.getElementById("notesTable");
-          notesTable.innerHTML = ""; // Kosongkan isi tabel sebelum mengisi ulang
+          notesTable.innerHTML = "";
 
           notes.forEach((note, index) => {
               const row = document.createElement("tr");
